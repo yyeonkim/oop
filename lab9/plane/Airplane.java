@@ -1,0 +1,15 @@
+package plane;
+
+public class Airplane {
+    public void land() {
+        System.out.println("Land");
+    }
+
+    public void fly() {
+        System.out.println("Fly");
+    }
+
+    public void takeoff() {
+        System.out.println("Take off");
+    }
+}

@@ -1,0 +1,11 @@
+package calc;
+
+public class Computer extends Calculator {
+
+    @Override
+    double areaCircle(double r) {
+        System.out.println("areaCircle() of Computer");
+        return Math.PI * r * r;
+    }
+
+}
